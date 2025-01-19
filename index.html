@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Text</title>
+    <title>TEXT EDITOR</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <h1>Online Text Editor</h1>
+        <h1>TEXT EDITOR</h1>
         <textarea id="textEditor" placeholder="Start typing here..."></textarea>
         <div class="button-container">
-            <button id="saveTxt">Save as TXT</button>
-            <button id="savePdf">Save as PDF</button>
-            <button id="clearText">Clear</button>
+            <button id="saveTxt"><i class="fas fa-download"></i> Save as TXT</button>
+            <button id="savePdf"><i class="fas fa-file-pdf"></i> Save as PDF</button>
+            <button id="clearText"><i class="fas fa-trash"></i> Clear</button>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
